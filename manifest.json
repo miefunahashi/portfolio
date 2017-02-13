@@ -1,0 +1,31 @@
+{
+  "short_name": "Mie graphic designer",
+  "name": "Mie graphic designer",
+  "description": "Mie a graphic designer based in London",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffc0cb",
+  "theme_color": "#ffc0cb",
+  "icons": [
+    {
+      "src": "images/icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "images/ms-touch-icon-144x144-precomposed.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/chrome-touch-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
