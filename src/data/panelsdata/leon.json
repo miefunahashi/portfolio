@@ -1,0 +1,23 @@
+{
+    "title": "Everyday Leon",
+    "brief": "Messaging app stickers",
+    "content": "Everyday Leon is a brand created with my sister. We made this character for our family dog, Leon: a Papillon breed. Now, with my family living apart  we can chat online together and share in Line Stamps that remind us of Leon.",
+    "images": [
+        "leon1.svg",
+        "leon2.svg",
+        "leon3.svg",
+        "leon4.svg"
+    ],
+    "links": {
+        "link1": {
+            "title": "Everyday Leon",
+            "content": "He goes woof!!",
+            "url": "https://store.line.me/stickershop/product/1117924/en",
+            "type": "url"
+        },
+        "link2": {
+            "url": "https://store.line.me/stickershop/product/1188148/en",
+            "type": "url"
+        }
+    }
+}

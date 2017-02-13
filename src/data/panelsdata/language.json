@@ -1,0 +1,17 @@
+{
+    "title": "Langauge barriers",
+    "brief": "Animation",
+    "content": "To make Japanese characters familiar to Western people, I made a stop motion animation out of Kanji and animals.",
+    "images": [
+      "language_1.jpg",
+      "language_2.jpg"
+    ],
+    "links": {
+      "link1": {
+        "title": "Langauge barrier",
+        "content": "Bits of paper moving to form picture to japanese character",
+        "url": "https://www.youtube.com/watch?v=jXyqPtSVYGw",
+        "type": "youtube"
+      }
+    }
+}

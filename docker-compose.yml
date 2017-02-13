@@ -1,0 +1,22 @@
+version: '2'
+services:
+  server:
+    image: node:7.4.0
+    command: sh -c 'cd /app && npm install; npm run build; node server.js'
+    tty: true
+    volumes:
+    - "./:/app"
+    ports:
+    - "9000:9000"
+  app:
+    image: node:7.4.0
+    command: sh -c 'cd /app && npm install; ./node_modules/.bin/wdio wdio.conf.js --watch --host selenium'
+    tty: true
+    volumes:
+    - "./:/app"
+    depends_on: 
+      - server
+  selenium:
+    image: selenium/standalone-chrome
+    expose:
+      - "4444"
